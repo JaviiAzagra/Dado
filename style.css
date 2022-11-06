@@ -1,59 +1,53 @@
 * {
-    font-family: 'Rubik Mono One', sans-serif;
-    background-color: rgb(221, 189, 147);
-    top: 50%;
-    left: 45%;
+  font-family: "Rubik Mono One", sans-serif;
+  background-color: rgb(221, 189, 147);
+  top: 50%;
+  left: 45%;
 }
-
 body {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
 }
-
 .title {
-    padding-top: 10%;
-    font-size: 70px;
+  padding-top: 10%;
+  font-size: 70px;
 }
-
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: auto;
-    padding-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 10%;
 }
-
 #dado {
-    width: 300px;
-    height: 300px;
-    background-size: cover;
-    margin-top: auto;
-    margin-bottom: 60px;
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  margin-top: auto;
+  margin-bottom: 60px;
 }
-
 input {
-    border-radius: 10px;
-    font-size: 30px;
-    border-color: black;
-    background-color: rgb(221, 189, 147);
-    color: black;
-    margin-bottom: 20px;
-}   
-
+  border-radius: 10px;
+  font-size: 30px;
+  border-color: black;
+  background-color: rgb(221, 189, 147);
+  color: black;
+  margin-bottom: 20px;
+}
 .social {
-    display: flex;
-    justify-items: center;
-    margin-top: 50px;
-    flex-direction: column;
-    
+  display: flex;
+  justify-items: center;
+  margin-top: 50px;
+  flex-direction: column;
 }
-
-.social a{
-    color: black;
-    margin-top: 10px;
-    text-decoration: none;
+.social a {
+  color: black;
+  margin-top: 10px;
+  text-decoration: none;
 }
-
+p {
+  font-weight: bold;
+}

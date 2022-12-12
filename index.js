@@ -24,6 +24,8 @@ const aGithub$$ = document.createElement("a");
 
 aInsta$$.href = "https://www.instagram.com/12jav1/";
 aGithub$$.href = "https://github.com/JaviiAzagra";
+aInsta$$.target="_blank";
+aGithub$$.target="_blank";
 
 const iInsta = document.createElement("i");
 iInsta.className= "fa-brands fa-instagram";

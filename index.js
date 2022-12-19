@@ -13,6 +13,9 @@ dado$$.id = "dado";
 
 const input$$ = document.querySelector(".boton");
 
+const salida$$ = document.createElement("p");
+salida$$.id = "salida"
+
 const p$$ = document.createElement("p");
 p$$.textContent = "made by 12jav1";
 
@@ -40,6 +43,7 @@ document.body.appendChild(div$$);
 div$$.appendChild(h1$$);
 div$$.appendChild(divContainer$$);
 divContainer$$.appendChild(dado$$);
+div$$.appendChild(salida$$);
 div$$.appendChild(input$$);
 div$$.appendChild(p$$);
 div$$.appendChild(divSocial$$);
@@ -55,20 +59,26 @@ function lanzardado() {
   if (aleatorio === 1) {
     document.getElementById("dado").style.backgroundImage =
       "url(./assets/dado1.png)";
+      document.getElementById("salida").innerHTML = "Resultado: " + aleatorio;  
   } else if (aleatorio === 2) {
     document.getElementById("dado").style.backgroundImage =
       "url(./assets/dado2.png)";
+      document.getElementById("salida").innerHTML = "Resultado: " + aleatorio;  
   } else if (aleatorio === 3) {
     document.getElementById("dado").style.backgroundImage =
       "url(./assets/dado3.png)";
+      document.getElementById("salida").innerHTML = "Resultado: " + aleatorio;  
   } else if (aleatorio === 4) {
     document.getElementById("dado").style.backgroundImage =
       "url(./assets/dado4.png)";
+      document.getElementById("salida").innerHTML = "Resultado: " + aleatorio;  
   } else if (aleatorio === 5) {
     document.getElementById("dado").style.backgroundImage =
       "url(./assets/dado5.png)";
+      document.getElementById("salida").innerHTML = "Resultado: " + aleatorio;  
   } else if (aleatorio === 6) {
     document.getElementById("dado").style.backgroundImage =
       "url(./assets/dado6.png)";
+      document.getElementById("salida").innerHTML = "Resultado: " + aleatorio;  
   }
 };

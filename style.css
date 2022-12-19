@@ -37,6 +37,12 @@ input {
   color: black;
   margin-bottom: 20px;
 }
+
+input:hover {
+  background-color: black;
+  color: rgb(221, 189, 147);
+}
+
 .social {
   display: flex;
   justify-items: center;

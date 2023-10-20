@@ -43,6 +43,23 @@ input:hover {
   color: rgb(221, 189, 147);
 }
 
+.box a {
+  color: black;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.portfolio{
+  display: flex;
+  justify-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
 .social {
   display: flex;
   justify-items: center;

@@ -16,8 +16,9 @@ const input$$ = document.querySelector(".boton");
 const salida$$ = document.createElement("p");
 salida$$.id = "salida"
 
-const p$$ = document.createElement("p");
-p$$.textContent = "made by 12jav1";
+const aPage$$ = document.createElement("a");
+aPage$$.className = "portfolio";
+aPage$$.textContent = "MADE BY 12jav1";
 
 const divSocial$$ = document.createElement("div");
 divSocial$$.className = "social";
@@ -25,16 +26,18 @@ divSocial$$.className = "social";
 const aInsta$$ = document.createElement("a");
 const aGithub$$ = document.createElement("a");
 
+aPage$$.href = "https://javierazagra.com"
 aInsta$$.href = "https://www.instagram.com/12jav1/";
 aGithub$$.href = "https://github.com/JaviiAzagra";
 aInsta$$.target="_blank";
+aPage$$.target="_blank";
 aGithub$$.target="_blank";
 
 const iInsta = document.createElement("i");
 iInsta.className= "fa-brands fa-instagram";
+
 const iGithub = document.createElement("i");
 iGithub.className= "fa-brands fa-github";
-
 
 aInsta$$.textContent = "Instagram ";
 aGithub$$.textContent = "Github ";
@@ -45,7 +48,7 @@ div$$.appendChild(divContainer$$);
 divContainer$$.appendChild(dado$$);
 div$$.appendChild(salida$$);
 div$$.appendChild(input$$);
-div$$.appendChild(p$$);
+div$$.appendChild(aPage$$);
 div$$.appendChild(divSocial$$);
 aInsta$$.appendChild(iInsta);
 aGithub$$.appendChild(iGithub);
